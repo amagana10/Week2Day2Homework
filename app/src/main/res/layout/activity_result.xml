@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ResultActivity">
+
+    <EditText
+        android:id="@+id/etMake"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/main_font_size"
+        android:hint="make"/>
+    <EditText
+        android:id="@+id/etModel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/main_font_size"
+        android:hint="model"/>
+    <EditText
+        android:id="@+id/etYear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/main_font_size"
+        android:hint="year"/>
+    <EditText
+        android:id="@+id/etTitleStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/main_font_size"
+        android:hint="title status"/>
+    <EditText
+        android:id="@+id/etColor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/main_font_size"
+        android:hint="color"/>
+    <EditText
+        android:id="@+id/etEngine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/main_font_size"
+        android:hint="engine"/>
+    <EditText
+        android:id="@+id/etTransmission"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/main_font_size"
+        android:hint="transmission"/>
+    <Button
+        android:id="@+id/btnSendResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send Result"
+        android:onClick="onClick"/>
+</LinearLayout>

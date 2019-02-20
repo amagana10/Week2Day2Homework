@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvMake"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/main_font_size" />
+    <TextView
+        android:id="@+id/tvModel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/main_font_size" />
+    <TextView
+        android:id="@+id/tvYear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/main_font_size" />
+    <TextView
+        android:id="@+id/tvTitleStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/main_font_size" />
+    <TextView
+        android:id="@+id/tvColor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/main_font_size" />
+    <TextView
+        android:id="@+id/tvEngine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/main_font_size" />
+    <TextView
+        android:id="@+id/tvTransmission"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/main_font_size" />
+
+    <Button
+        android:id="@+id/btnStartActivityResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="START ACTIVITY FOR RESULT"
+        android:onClick="onStartForResult"/>
+
+</LinearLayout>
